@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AD&amp;D365 Configuration Training Academy</title>
+  <meta name="description" content="Interactive, gamified training labs for configuring Microsoft Dynamics 365 Finance with the Waterdeep Trading Company. Start with Module 1: Faerûn Address Localizations.">
+  <meta name="theme-color" content="#14100d">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AD&amp;D365 Configuration Training Academy">
+  <meta property="og:description" content="Learn Dynamics 365 Finance configuration through interactive Forgotten Realms labs.">
+  <meta property="og:image" content="assets/img/logo-adnd365.png">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="no-side">
+  <a class="skip-link" href="#app">Skip to content</a>
+
+  <header class="topbar">
+    <button id="menu-toggle" class="icon-btn menu-btn" type="button" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle course menu">&#9776;</button>
+    <a class="brand" href="#/" aria-label="AD&amp;D365 Training home">
+      <img src="assets/img/logo-adnd365.png" alt="" width="64" height="27">
+      <span>Training Academy</span>
+    </a>
+    <div class="topbar-right">
+      <div id="xp-badge" class="xp-badge" aria-live="polite"></div>
+      <button id="theme-toggle" class="btn btn-small" type="button" aria-pressed="false">Light mode</button>
+    </div>
+  </header>
+
+  <div class="layout">
+    <nav id="sidebar" class="sidebar" aria-label="Course navigation"></nav>
+    <main id="app" class="main"><noscript><p>This training guide needs JavaScript to run.</p></noscript></main>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; <span id="year">2026</span> Blind Squirrel Publishing, LLC. All rights reserved. Advanced Dungeons &amp; Dynamics 365 is a fan-created training series and is not affiliated with or endorsed by Microsoft or Wizards of the Coast. Microsoft Dynamics 365 is a trademark of Microsoft Corporation. Forgotten Realms and Dungeons &amp; Dragons are trademarks of Wizards of the Coast LLC.</p>
+    <p><button id="reset-progress" class="link-btn" type="button">Reset my progress</button></p>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/registry.js"></script>
+  <script src="assets/js/core.js"></script>
+  <script src="assets/js/widgets.js"></script>
+  <script src="data/modules/module-01.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
